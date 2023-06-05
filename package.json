@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "runApp": "tsc -w",
-    "dev": "nodemon ./dist/index.js"
+    "dev": "nodemon ./dist/index.js",
+    "debugApp": "nodemon --inspect ./dist/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
