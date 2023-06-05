@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "aleksanderMMM",
+  "license": "MIT",
+  "scripts": {
+    "runApp": "tsc -w",
+    "dev": "nodemon ./dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
