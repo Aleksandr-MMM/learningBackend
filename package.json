@@ -5,13 +5,20 @@
   "author": "aleksanderMMM",
   "license": "MIT",
   "scripts": {
-    "runApp": "tsc -w",
-    "dev": "nodemon ./dist/index.js",
-    "debugApp": "nodemon --inspect ./dist/index.js"
+    "convertTs": "tsc -w",
+    "startServer": "nodemon ./dist/index.js",
+    "debugApp": "nodemon --inspect ./dist/index.js",
+    "test": "jest"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@types/jest": "^29.5.2",
+    "@types/supertest": "^2.0.12",
     "express": "^4.18.2",
-    "serve-favicon": "^2.5.0"
+    "jest": "^29.5.0",
+    "serve-favicon": "^2.5.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
